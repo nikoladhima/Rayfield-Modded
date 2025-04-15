@@ -3585,6 +3585,7 @@ for i,v in pairs(TableOfData) do
     if tostring(game:GetService("RbxAnalyticsService"):GetClientId()) ~= v then
     game:GetService("Players").LocalPlayer:Kick("Skill issue - ACCESS REVOKED"
   end
+end
 
 if Topbar:FindFirstChild('Settings') then
 	Topbar.Settings.MouseButton1Click:Connect(function()
